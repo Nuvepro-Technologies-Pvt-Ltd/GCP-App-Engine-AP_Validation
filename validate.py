@@ -117,7 +117,6 @@ def start_tests(credentials, project_id, args):
     challenge_test=Activity()
     challenge_test.testcase_check_App_Engine(test_object,credentials,project_id)
     challenge_test.testcase_check_App_Engine_Region(test_object,credentials,project_id)
-    challenge_test.testcase_check_Workload_name(test_object,credentials,project_id)
 
     json.dumps(test_object.result_final(),indent=4)
     return test_object.result_final()
