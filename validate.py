@@ -58,7 +58,7 @@ class Activity():
             test_object.eval_message["testcase_check_cloud_run_service_name"]=str(e)                
 
     def testcase_check_App_Engine_Region(self,test_object,credentials,project_id):
-        testcase_description="Check App Engine name"
+        testcase_description="Check App Engine Region"
         module_id="default"
         expected_result="us-east1"
         list_of_entries=[]
